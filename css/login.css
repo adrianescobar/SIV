@@ -1,0 +1,78 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body{
+	background-color: #494949;
+}
+.header{
+
+	height: 60px;
+	width: 960px;
+	margin: auto;
+	background-color: #868686;
+}
+.body{
+	background-color: #b8b8b8;
+	margin: auto;
+	min-height: 680px;
+	width: 960px;
+}
+#header h2{
+	font-family: calibri;
+	color: white;
+	font-size:50px;
+}
+#login{
+	
+	margin: auto;
+	height: 250px;
+	width: 700px;
+	background-color: #d0d0d0;
+}
+#ldentro{
+	height: 250px;
+	background-color: #d0d0d0;
+	margin-top: 150px;
+	padding-top:70px;
+}
+.input {
+	height: 45px;
+	width: 160px;
+}
+
+.button{
+	width:100px;
+	height:24px;
+	margin:5px;
+	background-color:#494949;
+	color:white;
+	text-align:center;
+}
+#entrar{
+	margin:auto;
+	margin-top:15px;
+}
+#entrar a{
+	text-decoration: none;
+}
+#entrar div:hover{
+	background-color:#b8b8b8;
+	color:white;
+}
