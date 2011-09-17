@@ -1,0 +1,111 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body{
+	background-color: #494949;
+}
+.header{
+	position: fixed;
+	height: 60px;
+	width: 960px;
+	margin: auto;
+	background-color: #868686;
+}
+.body{
+	background-color: #b8b8b8;
+	margin: auto;
+	min-height: 680px;
+	width: 960px;
+}
+#header h2{
+	font-family: calibri;
+	color: white;
+	font-size:50px;
+}
+.cuerpo{
+	border: 3px solid white;
+	width: 954px;
+	min-height: 912px;
+	margin: auto;
+}
+.divlogout{
+	position: fixed;
+	right: 200px;
+	top: 60px;
+}
+.mattom{
+	border: 3px solid white;
+	width: 645px;
+	min-height: 100px;
+	margin-top: 110px;
+	margin-left:230px;
+	position: fixed;
+	background-color: #b8b8b8;
+}
+#materias{
+	width: 640px;
+	margin: auto;
+}
+#materias th {
+	background-color: #868686;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+#materias td {
+	padding-left: 40px;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+#logOut{
+	position:relative;
+	top:17px;
+	right:10px;
+	float:right;
+	color:white;
+	font-size:18px;
+
+}
+
+#logOut:hover{
+	background-color:white;
+	color:black;
+}
+.menu{
+	margin-left:17px;
+	margin-top:110px;
+	width: 170px;
+	min-height: 100px;
+	padding:5px;
+	float: left;
+	position: fixed;
+}
+.menu label{
+	margin-left: 48px;
+}
+.nota{
+	border-bottom: 1px solid #868686;
+	border-right: 4px solid #868686;
+	border-bottom-width: 5px;
+	font-size: 16px;
+}
+
+

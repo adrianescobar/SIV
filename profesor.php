@@ -26,13 +26,8 @@
 				
 			</div>
 			<div id = 'cuerpo' class = 'cuerpo'>
-			<a href="#" style="text-decoration:none;" onclick="logout()">
-					<div id="logout">
-		
-						LogOut
-					
-					</div>
-				</a>
+				<a href="#" style="text-decoration:none;" onclick="logout()"><div id="logout">LogOut</div></a>
+			
 				<div id = 'menu' class = 'menu' align = 'left'>
 					<div style = "width: 150px; background-color: #868686; height: 30px;"><label style = "font-size:20px; margin-left: 36px;"> Secciones </label></div>
 					<!-- Las materias se generara dinamicamente-->
