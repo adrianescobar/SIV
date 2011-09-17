@@ -1,4 +1,4 @@
-<?php
+<!--<?php
 
 	session_start();
 	if($_SESSION["privilegio"]!=3){
@@ -7,7 +7,7 @@
 	
 	}
 	
-?>
+?>-->
 <html>
 	<head>
 		<title>Profesor</title>
@@ -22,16 +22,17 @@
 			<div id = 'header' class = 'header'>
 				<h2 style="float:left">Profesor</h2>
 				
-				<a href="#" style="text-decoration:none;" onclick="logout()">
+					
+				
+			</div>
+			<div id = 'cuerpo' class = 'cuerpo'>
+			<a href="#" style="text-decoration:none;" onclick="logout()">
 					<div id="logout">
 		
 						LogOut
 					
 					</div>
-				</a>	
-				
-			</div>
-			<div id = 'cuerpo' class = 'cuerpo'>
+				</a>
 				<div id = 'menu' class = 'menu' align = 'left'>
 					<label> Secciones </label>
 					<div id = 'entrar' align='center'><a href = '#' onclick = 'prueba();'><div class = 'button'>Materia</div></a></div>

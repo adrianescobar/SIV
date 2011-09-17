@@ -14,6 +14,7 @@
 			var td = document.createElement("td");
 			if(ind == 3){
 				td.innerHTML = "<select id = 'notaEstudiante'>"+
+					"<option value = 'I'>I</option>"+ 
 					"<option value = 'A'>A</option>"+ 
 					"<option value = 'B'>B</option>"+ 
 					"<option value = 'C'>C</option>"+
