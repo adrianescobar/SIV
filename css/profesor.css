@@ -39,30 +39,24 @@ body{
 	color: white;
 	font-size:50px;
 }
-#login{
-	
+.cuerpo{
+	border: 3px solid white;
+	width: 954px;
+	min-height: 612px;
 	margin: auto;
-	height: 250px;
-	width: 700px;
-	background-color: #d0d0d0;
+	border: 3px solid white;
 }
-#ldentro{
-	height: 250px;
-	background-color: #d0d0d0;
-	margin-top: 150px;
-	padding-top:70px;
+.menu{
+	margin-left:20px;
+	margin-top:60px;
+	border: 3px solid white;
+	width: 150px;
+	height: 200px;
+	padding:10px;
+	float: left;
 }
-.input {
-	height: 45px;
-	width: 160px;
-}
-.button{
-	width:100px;
-	height:24px;
-	margin:5px;
-	background-color:#494949;
-	color:white;
-	text-align:center;
+.menu label{
+	margin-left: 48px;
 }
 #entrar{
 	margin:auto;
@@ -74,4 +68,29 @@ body{
 #entrar div:hover{
 	background-color:#b8b8b8;
 	color:white;
+}
+.button{
+	width:120px;
+	height:24px;
+	margin:5px;
+	background-color:#494949;
+	color:white;
+	text-align:center;
+}
+.vista{
+	border: 3px solid white;
+	width: 650px;
+	min-height: 350px;
+	margin-left: 250px;
+	margin-top:60px;
+}
+#estudiantes{
+	width: 600px;
+	
+	margin: auto;
+}
+#estudiantes th {
+	background-color: #868686;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
 }
