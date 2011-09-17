@@ -50,6 +50,8 @@ function login(login,pass){
 	
 	httpRequest.open("GET","php/login.php?usuario="+$(login,1).value+"&password="+$(pass,1).value,true);
 	
+	prompt("","php/login.php?usuario="+$(login,1).value+"&password="+$(pass,1).value);
+	
 	$("msg",1).innerHTML="<img src='img/loader.gif'>";
 	
 	httpRequest.onreadystatechange = function(){
@@ -62,7 +64,11 @@ function login(login,pass){
 			
 			}else{
 			
-					alert(httpRequest.responseText);
+					datos = eval(" ("+ httpRequest.responseText +" )");
+					
+					console.log(datos);
+					
+					window.location = "php/redirecion.php?usuario="+ datos.usuario +"&privilegio="+datos.privilegio;
 					
 				}
 		

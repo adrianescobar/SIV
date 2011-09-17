@@ -19,35 +19,17 @@
 		
 		}
 		
-		public function redireccion(){
+		public function respuesta(){
 		
 			if($this->usuario != null){
 			
-				switch($this->usuario["privilegio"]){
-				
-					case 4:
-						echo "resultado = { 
-									
-									usuario : " . $this->usuario["usuario"].",
-									
-									privilegio : ".$this->usuario["privilegio"]."
-									
-									}";
-					break;
-					
-					case 3:
-						echo "resultado = { 
-									
-									usuario : " . $this->usuario["usuario"].",
-									
-									privilegio : ".$this->usuario["privilegio"]."
-									
-									}";
-					break;
-					
-				
-				}
-			
+				echo "resultado = { 
+							
+							usuario : " . $this->usuario["usuario"].",
+							
+							privilegio : ".$this->usuario["privilegio"]."
+							
+							}";
 			}else{
 			
 				echo "Fail";
