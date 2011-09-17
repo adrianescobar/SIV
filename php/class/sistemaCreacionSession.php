@@ -25,7 +25,7 @@
 				
 				case 3:
 				
-					header("Location: ../profesores.php");
+					header("Location: ../profesor.php");
 				
 				break;
 			

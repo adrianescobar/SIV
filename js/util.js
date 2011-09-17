@@ -46,6 +46,8 @@ function $(id,tipo){
 
 function login(login,pass){
 
+	alert("entro");
+
 	httpRequest = getHttp();
 	
 	httpRequest.open("GET","php/login.php?usuario="+$(login,1).value+"&password="+$(pass,1).value,true);
@@ -78,4 +80,15 @@ function login(login,pass){
 	
 	httpRequest.send(null);
 
+}
+
+function logout(){
+
+	salir = confirm("Seguro de Salir?");
+
+	if(salir){
+	
+		window.location = "php/logout.php";
+	
+	}
 }

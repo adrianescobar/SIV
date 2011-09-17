@@ -17,14 +17,12 @@
 		<div id = 'login' align = 'center'>
 			<div id = 'ldentro'>
 				<form method = 'post'>
+				
 					<div class = 'input'><label>Usuario: </label><input type ='text' name = 'usuario' id = 'usuario'></div>
 					<div class = 'input'><label>Password: </label><input type ='password' name = 'pass' id = 'pass'></div>
-<<<<<<< HEAD
-					<div id = 'entrar' align='center'><a href = '#'><div class = 'button'>Entrar</div></a></div>
-=======
+
 					<div id = 'entrar' align='center'><a href = '#' onclick="login('usuario','pass')"><div class = 'button'>Entrar</div></a></div>
-					
->>>>>>> 5a087aaafef03b30cacc48fa6636a76b4e3ff746
+				
 				</form>
 				
 				<div id="msg">
