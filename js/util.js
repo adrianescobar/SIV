@@ -46,9 +46,13 @@ function $(id,tipo){
 
 function login(login,pass){
 
+	alert("entro");
+
 	httpRequest = getHttp();
 	
 	httpRequest.open("GET","php/login.php?usuario="+$(login,1).value+"&password="+$(pass,1).value,true);
+	
+	prompt("","php/login.php?usuario="+$(login,1).value+"&password="+$(pass,1).value);
 	
 	$("msg",1).innerHTML="<img src='img/loader.gif'>";
 	
@@ -62,7 +66,11 @@ function login(login,pass){
 			
 			}else{
 			
-					alert(httpRequest.responseText);
+					datos = eval(" ("+ httpRequest.responseText +" )");
+					
+					console.log(datos);
+					
+					window.location = "php/redirecion.php?usuario="+ datos.usuario +"&privilegio="+datos.privilegio;
 					
 				}
 		
@@ -72,4 +80,15 @@ function login(login,pass){
 	
 	httpRequest.send(null);
 
+}
+
+function logout(){
+
+	salir = confirm("Seguro de Salir?");
+
+	if(salir){
+	
+		window.location = "php/logout.php";
+	
+	}
 }

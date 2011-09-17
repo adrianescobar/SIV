@@ -5,6 +5,6 @@
 	
 	$clase = new Sistema_login($_GET["usuario"],$_GET["password"]);
 	
-	$clase->redireccion();
+	$clase->respuesta();
 
 ?>
