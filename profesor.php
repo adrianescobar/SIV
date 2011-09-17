@@ -13,11 +13,11 @@
 			<div id = 'cuerpo' class = 'cuerpo'>
 				<div id = 'menu' class = 'menu' align = 'left'>
 					<label> Secciones </label>
-					<div id = 'entrar' align='center'><a href = '#'><div class = 'button'>Materia</div></a></div>
+					<div id = 'entrar' align='center'><a href = '#' onclick = 'prueba();'><div class = 'button'>Materia</div></a></div>
 				</div>
 				<div id = 'vista' class = 'vista' align = 'center'>
-					<label> Lista Estudiantes</label>
-					<div style = "margin: 10px;">
+					<label class = 'letras'> Lista Estudiantes</label>
+					<div  id = ' divTabla' style = "margin: 10px;">
 						<table id = 'estudiantes'>
 							<tr>
 								<th>Matricula</th>
@@ -27,6 +27,7 @@
 							</tr>
 						</table>
 					</div>
+					<div id = 'entrar' align='center'><a href = '#'><div class = 'button'>Guardar</div></a></div>
 				</div>
 			</div>
 		</div>

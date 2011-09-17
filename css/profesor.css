@@ -78,19 +78,27 @@ body{
 	text-align:center;
 }
 .vista{
-	border: 3px solid white;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
 	width: 650px;
 	min-height: 350px;
 	margin-left: 250px;
 	margin-top:60px;
 }
+.letras{
+	font-size: 20px;
+}
 #estudiantes{
 	width: 600px;
-	
 	margin: auto;
 }
 #estudiantes th {
 	background-color: #868686;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+}
+#estudiantes td {
+	padding-left: 40px;
 	border-right: 1px solid white;
 	border-bottom: 1px solid white;
 }
